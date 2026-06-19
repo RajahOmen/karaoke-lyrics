@@ -1,6 +1,6 @@
 # Karaoke Lyrics
 
-Lyrics for songs in FFXIV, unofficially hand-timed for synced playback. Lyrics are fetched/consumed by the [Karaoke plugin](https://github.com/RajahOmen/Karaoke) and defined in the [karaoke-lyrics] github repository (https://github.com/RajahOmen/karaoke-lyrics).
+Lyrics for songs in FFXIV, unofficially hand-timed for synced playback. Lyrics are fetched/consumed by the [Karaoke plugin](https://github.com/RajahOmen/Karaoke) and defined in the [karaoke-lyrics](https://github.com/RajahOmen/karaoke-lyrics) github repo.
 
 Lyrics are stored as .lrc files, with some custom tags to configure playback in-game. Custom tags are the following:
 - `[ids:{id1;id2;...}]` - Semicolon-separated list of BGM ids that the lyric file should be loaded for. Must be the first tag, on the first line.
