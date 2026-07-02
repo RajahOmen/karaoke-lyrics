@@ -8,7 +8,7 @@ Lyrics are stored as .lrc files, with some custom tags to configure playback in-
 - `[loop:{int}]` - The zero-indexed line number for the first line after the song loops in-game. 
 
 Subdirectories are used to group lyrics by category. 
-- `official`: Lyrics from official SE sources, such as FanFest or physical releases. Takes default priority if other lyrics exist.
+- `official`: Lyrics from official SE sources, such as FanFest or physical releases. Takes default priority if other lyrics exist. Note: songs in this category may have some unofficial lyrics if official lyrics are partial or missing lines. This will be commented in the file.
 - `unofficial`: Lyrics from unofficial community sources, typically before official lyrics are known. Can be inaccurate. Lyricists for songs of this category may include the names/aliases of the fan-made transcriptions the sync are based on.
 
 Any lyrics in directories defined above will be overwritten when the plugin is loaded, or the user reloads lyrics manually.
