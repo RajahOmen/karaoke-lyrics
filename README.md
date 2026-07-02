@@ -7,6 +7,9 @@ Lyrics are stored as .lrc files, with some custom tags to configure playback in-
 - `[idoffsets:{id1:float1;id2:float2;...}]` - Semicolon-separated key-value pairs of lyric offsets (in seconds) to apply to specific BGM ids.
 - `[loop:{int}]` - The zero-indexed line number for the first line after the song loops in-game. 
 
+By default, segments separated by <HH:MM:SS.xxx> timestamp markers will be separated by spaces in the plugin. To override this and to join adjacent segments without spacing, append a `-` to the end of the first segment.
+The plugin will strip the `-` and display the adjacent segments as one word, while maintaining each segment's unqiue timestamp
+
 Subdirectories are used to group lyrics by category. 
 - `official`: Lyrics from official SE sources, such as FanFest or physical releases. Takes default priority if other lyrics exist. Note: songs in this category may have some unofficial lyrics if official lyrics are partial or missing lines. This will be commented in the file.
 - `unofficial`: Lyrics from unofficial community sources, typically before official lyrics are known. Can be inaccurate. Lyricists for songs of this category may include the names/aliases of the fan-made transcriptions the sync are based on.
