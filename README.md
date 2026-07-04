@@ -2,13 +2,13 @@
 
 Lyrics for songs in FFXIV, unofficially hand-timed for synced playback. Lyric files are fetched by the [Karaoke plugin](https://github.com/RajahOmen/Karaoke) and defined in the [karaoke-lyrics](https://github.com/RajahOmen/karaoke-lyrics) repo.
 
-Lyrics are stored as .lrc files, with some custom tags to configure playback in-game. Custom tags are the following:
+Lyrics are stored as `.lrc` files, with some custom tags to configure playback in-game. Custom tags are the following:
 - `[ids:{id1;id2;...}]` - Semicolon-separated list of BGM ids that the lyric file should be loaded for. This tag is required for use by the plugin.
 - `[idoffsets:{id1:float1;id2:float2;...}]` - Semicolon-separated key-value pairs of lyric offsets (in seconds) to apply to specific BGM ids.
 - `[loop:{int}]` - The zero-indexed line number for the first line after the song loops in-game. 
 
 By default, segments separated by `<HH:MM:SS.xxx>` timestamp markers will be separated by spaces in the plugin. To override this and to join adjacent segments without spacing, append a `-` to the end of the first segment.
-The plugin will strip the `-` and display the adjacent segments as one word, while maintaining each segment's unqiue timestamp
+The plugin will strip the `-` and display the adjacent segments as one word, while maintaining each segment's unqiue timestamp.
 
 Subdirectories are used to group lyrics by category. 
 - `official`: Lyrics from official SE sources, such as FanFest or physical releases. Takes default priority if other lyrics exist. Note: songs in this category may have some unofficial lyrics if official lyrics are partial or missing lines. This will be commented in the file.
