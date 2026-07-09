@@ -6,6 +6,7 @@ Lyrics are stored as `.lrc` files, with some custom tags to configure playback i
 - `[ids:{id1;id2;...}]` - Semicolon-separated list of BGM ids that the lyric file should be loaded for. This tag is required for use by the plugin.
 - `[idoffsets:{id1:float1;id2:float2;...}]` - Semicolon-separated key-value pairs of lyric offsets (in seconds) to apply to specific BGM ids.
 - `[loop:{int}]` - The zero-indexed line number for the first line after the song loops in-game. 
+- `[tr:{string}]` - Translation of the preceding lyric line into English.
 
 By default, segments separated by `<HH:MM:SS.xxx>` timestamp markers will be separated by spaces in the plugin. To override this and to join adjacent segments without spacing, append a `-` to the end of the first segment.
 The plugin will strip the `-` and display the adjacent segments as one word, while maintaining each segment's unqiue timestamp.
