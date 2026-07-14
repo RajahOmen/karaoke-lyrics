@@ -4,9 +4,11 @@ Lyrics for songs in FFXIV, unofficially hand-timed for synced playback. Lyric fi
 
 Lyrics are stored as `.lrc` files, with some custom tags to configure playback in-game. Custom tags are the following:
 - `[ids:{id1;id2;...}]` - Semicolon-separated list of BGM ids that the lyric file should be loaded for. This tag is required for use by the plugin.
-- `[idoffsets:{id1:float1;id2:float2;...}]` - Semicolon-separated key-value pairs of lyric offsets (in seconds) to apply to specific BGM ids.
-- `[loop:{int}]` - The zero-indexed line number for the first line after the song loops in-game. 
+- `[loop:{int}]` - The zero-indexed line number for the first line after the song loops in-game.
 - `[tr:{string}]` - Translation of the preceding lyric line into English.
+
+Tag values can also be specified on a per-song-id basis, with the format `[tag_name:ID1:value1;ID2:value2]`. The value corresponding to the ID of the playing
+song will be parsed by the plugin.
 
 By default, segments separated by `<HH:MM:SS.xxx>` timestamp markers will be separated by spaces in the plugin. To override this and to join adjacent segments without spacing, append a `-` to the end of the first segment.
 The plugin will strip the `-` and display the adjacent segments as one word, while maintaining each segment's unqiue timestamp.
