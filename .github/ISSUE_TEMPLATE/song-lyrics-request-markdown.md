@@ -1,5 +1,5 @@
 ---
-name: Song Lyrics Request
+name: Song Lyrics Request (Markdown)
 about: Request a voiced track to get synced lyrics added
 title: "[New Song Lyrics] SONG_NAME_HERE"
 labels: new song
@@ -28,8 +28,8 @@ Please fill out at least some of the following fields, the more you can find the
   - Singer: Susan Calloway
   - Source: [Wiki](https://finalfantasy.fandom.com/wiki/Answers_(Final_Fantasy_XIV))
 
-5. If you provided more than just a song name (i.e. tracked down / theorycrafted unknown lyrics, found all bgm ids/locations played, etc.), do you wish to be credited in the `[by: ...]` tag in the file? If so, please provide a tag to be added.
-  - RajahOmen
-
-6. Any comments about the lyrics/sync to be added as a `[#: ...]` tag? Usually used for explaining why some sections may be missing, other misc quirks of the sync, how unofficial lyrics were derived, etc.
+5. Any comments about the lyrics/sync to be added as a `[#: ...]` tag? Usually used for explaining why some sections may be missing, other misc quirks of the sync, how unofficial lyrics were derived, etc.
   - N/A
+
+6. If you provided more than just a song name (i.e. tracked down / theorycrafted unknown lyrics, found all bgm ids/locations played, etc.), do you wish to be credited in the `[by: ...]` tag in the file? If so, please provide a tag to be added.
+  - RajahOmen
