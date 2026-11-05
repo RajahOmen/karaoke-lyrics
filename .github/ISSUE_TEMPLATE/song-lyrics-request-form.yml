@@ -10,26 +10,26 @@ body:
       ### Please fill out at least some of the following fields. The more you can provide, the faster I can make a sync
       If you don't know how to find a BGM id/file path, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin).
 - type: input
+  id: song_name
   attributes:
     label: Song Name
-    id: song_name
     description: If song name is not currently known, provide a brief description of the song instead, or the song file path.
     placeholder: Answers
   validations:
     required: true
 - type: textarea
+  id: song_ids
   attributes:
     label: Song Locations / BGM Ids
-    id: song_ids
     description: What locations/when does this song play, and/or what are the BGM ids for the song (there can be multiple)
     placeholder: |-
       ARR end credits, The Final Coil of Bahamut (Turn 4), EW cutscenes
 
       132, 237, 238, 240, 898
 - type: dropdown
+  id: song_expac
   attributes:
     label: Song Expansion
-    id: song_expac
     description: What is the *earliest* expansion this song plays in?
     options:
     - Evercold
