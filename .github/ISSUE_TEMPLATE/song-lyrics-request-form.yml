@@ -1,0 +1,103 @@
+
+name: Song Lyrics Request Form
+about: Fill out a new voiced track lyric sync request form
+title: "[New Song Lyrics] SONG_NAME_HERE"
+labels: new song
+assignees: ''
+body:
+- type: markdown
+  attributes:
+    value: >-
+      ## Please fill out at least some of the following fields, the more you can find the faster I can get it synced.
+      ### If you don't know how to find a BGM id, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin)). The number next to the song playing is that id.
+- type: input
+  attributes:
+    label: Song Name
+    description: If song name is not currently known, provide a brief description of the song instead.
+    placeholder: Answers
+    required: true
+- type: textarea
+  attributes:
+    label: Song Locations / BGM Ids
+    description: What locations/when does this song play, and/or what are the BGM ids for the song (there can be multiple)
+    placeholder: >-
+      ARR end credits, The Final Coil of Bahamut (Turn 4), EW cutscenes
+      132, 237, 238, 240, 898
+- type: dropdown
+  attributes:
+    label: Song Expansion
+    description: What is the *earliest* expansion this song plays in?
+    options:
+    - Evercold
+    - Dawntrail
+    - Endwalker
+    - Shadowbringers
+    - Stormblood
+    - Heavensward
+    - A Realm Reborn
+    default: 0
+- type: textarea
+  attributes:
+    label: Song Lyrics
+    description: Are any lyrics known? Please provide link(s) to your source(s)
+    placeholder: https://forum.square-enix.com/ffxiv/threads/58479-Answers-Answered!
+- type: dropdown
+  attributes:
+    label: Lyrics Type
+    description: >-
+      If provided, are lyrics official, unofficial, or a mix of both?
+      If both / a combination of official and unofficial, please explain in the Song Lyrics section
+    options:
+    - Official
+    - Unofficial
+    - Both (note included)
+- type: textarea
+  attributes:
+    label: Song Translations
+    description: >-
+      If the song contains non-english lyrics, are translations known? Please provide link(s) to your source(s)
+      Note: Please do not submit AI-generated translations
+    value: N/A
+    placeholder: https://finalfantasy.fandom.com/wiki/Wayward_Daughter#Tsukuyomi's_Pain
+- type: dropdown
+  attributes:
+    label: Translations Type
+    description: >-
+      If provided, are translations official, unofficial, or a mix of both?
+      If both / a combination of official and unofficial, please explain in the Song Translations section
+    options:
+    - Official
+    - Unofficial
+    - Both (note included)
+- type: textarea
+  attributes:
+    label: Song Credits
+    description: >-
+      Are the credits for who composed, arranged, performed, wrote lyrics for the song, or otherwise contributed to the song known? Please provide them and the source(s).
+      If the song lyrics/translations provided are at least partially unofficial/community created, please also include the author(s) of those sources as well as lyricists.
+    value: >-
+      - Composers: 
+      - Arrangers: 
+      - Performers: 
+      - Lyricists: 
+      - Source: 
+    placeholder: >-
+      - Composers: Nobuo Uematsu
+      - Arrangers: Tsutomu Narita
+      - Performers: Susan Calloway
+      - Lyricists: Yaeko Sato, Koji Fox
+      - Source: https://finalfantasy.fandom.com/wiki/Answers_(Final_Fantasy_XIV)
+- type: input
+  attributes:
+    label: Lyric File Comment
+    description: >-
+      Are there any comments about the lyrics/sync to be added as a `[#: ...]` tag?
+      Usually used for explaining why some sections may appear to be missing lyrics, how unofficial lyrics were derived, other misc. quirks of the sync, etc.
+    placeholder: Lyrics unofficially adapted from "Oblivion"
+- type: input
+  attributes:
+    label: Attribution
+    description: >-
+      Do you wish to be credited in the `[by: ...]` tag in the file (viewable in-plugin by hovering over the playing song name)? If so, please provide a tag to be added.
+      Note: This is only for submissions including more than just a song name (i.e. tracked down / theorycrafted unknown lyrics, found all bgm ids/locations played, found full credits, etc.)
+    placeholder: RajahOmen
