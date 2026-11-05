@@ -1,5 +1,5 @@
 ---
-name: Song Lyrics Request Template
+name: Song Lyrics Request
 about: Request a voiced track to get synced lyrics added
 title: "[New Song Lyrics] SONG_NAME_HERE"
 labels: new song
