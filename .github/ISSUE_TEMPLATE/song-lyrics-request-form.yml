@@ -8,7 +8,7 @@ body:
   attributes:
     value: |-
       ## Please fill out at least some of the following fields, the more you can find the faster I can get it synced.
-      #### If you don't know how to find a BGM id, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin)). The number next to the song playing is that id.
+      If you don't know how to find a BGM id, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin)). The number next to the song playing is that id.
 - type: input
   attributes:
     label: Song Name
