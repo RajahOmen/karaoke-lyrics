@@ -7,7 +7,7 @@ body:
 - type: markdown
   attributes:
     value: |-
-      ### Please fill out at least some of the following fields, the more you can find the faster I can get it synced.
+      ### Please fill out at least some of the following fields. The more you can provide, the faster I can make a sync
       If you don't know how to find a BGM id, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin). The number next to the song playing is that id.
 - type: input
   attributes:
@@ -22,6 +22,7 @@ body:
     description: What locations/when does this song play, and/or what are the BGM ids for the song (there can be multiple)
     placeholder: |-
       ARR end credits, The Final Coil of Bahamut (Turn 4), EW cutscenes
+
       132, 237, 238, 240, 898
 - type: dropdown
   attributes:
