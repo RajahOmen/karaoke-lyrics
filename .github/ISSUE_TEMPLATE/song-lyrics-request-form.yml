@@ -8,7 +8,7 @@ body:
   attributes:
     value: |-
       ## Please fill out at least some of the following fields, the more you can find the faster I can get it synced.
-      ### If you don't know how to find a BGM id, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin)). The number next to the song playing is that id.
+      #### If you don't know how to find a BGM id, you find it using the [Orchestrion plugin](https://github.com/perchbirdd/OrchestrionPlugin)). The number next to the song playing is that id.
 - type: input
   attributes:
     label: Song Name
@@ -57,7 +57,6 @@ body:
     description: |-
       If the song contains non-english lyrics, are translations known? Please provide link(s) to your source(s)
       Note: Please do not submit AI-generated translations
-    value: N/A
     placeholder: https://finalfantasy.fandom.com/wiki/Wayward_Daughter#Tsukuyomi's_Pain
 - type: dropdown
   attributes:
@@ -76,17 +75,16 @@ body:
       Are the credits for who composed, arranged, performed, wrote lyrics for the song, or otherwise contributed to the song known? Please provide them and the source(s).
       If the song lyrics/translations provided are at least partially unofficial/community created, please also include the author(s) of those sources as well as lyricists.
     value: |-
-      - Composers: 
-      - Arrangers: 
-      - Performers: 
-      - Lyricists: 
-      - Source: 
+      Composers: 
+      Arrangers: 
+      Performers: 
+      Lyricists: 
     placeholder: |-
-      - Composers: Nobuo Uematsu
-      - Arrangers: Tsutomu Narita
-      - Performers: Susan Calloway
-      - Lyricists: Yaeko Sato, Koji Fox
-      - Source: https://finalfantasy.fandom.com/wiki/Answers_(Final_Fantasy_XIV)
+      Composers: Nobuo Uematsu
+      Arrangers: Tsutomu Narita
+      Performers: Susan Calloway
+      Lyricists: Yaeko Sato, Koji Fox
+      https://finalfantasy.fandom.com/wiki/Answers_(Final_Fantasy_XIV)
 - type: textarea
   attributes:
     label: Lyric File Comment
