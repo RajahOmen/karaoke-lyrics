@@ -20,7 +20,7 @@ body:
 - type: textarea
   attributes:
     label: Song Locations / BGM Ids
-    id: song_identifiers
+    id: song_ids
     description: What locations/when does this song play, and/or what are the BGM ids for the song (there can be multiple)
     placeholder: |-
       ARR end credits, The Final Coil of Bahamut (Turn 4), EW cutscenes
