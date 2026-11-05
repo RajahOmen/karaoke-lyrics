@@ -1,6 +1,6 @@
 
 name: Song Lyrics Request Form
-about: Fill out a new voiced track lyric sync request form
+description: Fill out a new voiced track lyric sync request form
 title: "[New Song Lyrics] SONG_NAME_HERE"
 labels: new song
 assignees: ''
