@@ -3,7 +3,6 @@ name: Song Lyrics Request Form
 description: Fill out a new voiced track lyric sync request form
 title: "[New Song Lyrics] SONG_NAME_HERE"
 labels: new song
-assignees: ''
 body:
 - type: markdown
   attributes:
@@ -15,6 +14,7 @@ body:
     label: Song Name
     description: If song name is not currently known, provide a brief description of the song instead.
     placeholder: Answers
+  validations:
     required: true
 - type: textarea
   attributes:
