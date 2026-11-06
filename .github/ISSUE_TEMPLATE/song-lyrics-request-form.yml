@@ -39,8 +39,6 @@ body:
     - Heavensward
     - A Realm Reborn
     default: 0
-  validations:
-    required: true
 - type: textarea
   attributes:
     label: Song Lyrics
