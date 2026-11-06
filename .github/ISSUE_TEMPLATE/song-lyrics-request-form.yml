@@ -17,8 +17,16 @@ body:
     placeholder: Answers
   validations:
     required: true
+- type: textarea
+  id: song_ids
+  attributes:
+    label: Song Locations / BGM Ids
+    description: What locations/when does this song play, and/or what are the BGM ids for the song (there can be multiple)
+    placeholder: |-
+      ARR end credits, The Final Coil of Bahamut (Turn 4), EW cutscenes
+
+      132, 237, 238, 240, 898
 - type: dropdown
-  id: song_expac
   attributes:
     label: Song Expansion
     description: What is the *earliest* expansion this song plays in?
@@ -31,17 +39,6 @@ body:
     - Heavensward
     - A Realm Reborn
     default: 0
-  validations:
-    required: true
-- type: textarea
-  id: song_ids
-  attributes:
-    label: Song Locations / BGM Ids
-    description: What locations/when does this song play, and/or what are the BGM ids for the song (there can be multiple)
-    placeholder: |-
-      ARR end credits, The Final Coil of Bahamut (Turn 4), EW cutscenes
-
-      132, 237, 238, 240, 898
 - type: textarea
   attributes:
     label: Song Lyrics
